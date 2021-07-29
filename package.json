@@ -19,7 +19,7 @@
   "homepage": "https://github.com/shamahoque/mern-marketplace",
   "scripts": {
     "development": "nodemon",
-    "start": "pm2-runtime start ecosystem.config.js --env production"
+    "start": "pm2-runtime start ecosystem.config.cjs"
   },
   "engines": {
     "node": "13.12.0",
