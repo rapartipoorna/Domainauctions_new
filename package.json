@@ -12,11 +12,6 @@
     "node",
     "mern"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shamahoque/mern-marketplace.git"
-  },
-  "homepage": "https://github.com/shamahoque/mern-marketplace",
   "scripts": {
     "development": "nodemon",
     "start": "pm2-runtime start ecosystem.config.cjs"
