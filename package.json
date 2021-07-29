@@ -1,5 +1,5 @@
 {
-  "type": "module" ,
+  "type": "module",
   "name": "mern-marketplace",
   "version": "2.0.0",
   "description": "A MERN stack based online marketplace application",
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/shamahoque/mern-marketplace",
   "scripts": {
     "development": "nodemon",
-    "start" : "node --experimental-specifier-resolution=node  server/server.js"
+    "start": "node --experimental-specifier-resolution=node  server/server.js"
   },
   "engines": {
     "node": "13.12.0",
