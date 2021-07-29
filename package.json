@@ -19,7 +19,7 @@
   "homepage": "https://github.com/shamahoque/mern-marketplace",
   "scripts": {
     "development": "nodemon",
-    "start" : "node --experimental-specifier-resolution=node  D:\\AuctionService\\server\\server.js"
+    "start" : "node --experimental-specifier-resolution=node  server/server.js"
   },
   "engines": {
     "node": "13.12.0",
