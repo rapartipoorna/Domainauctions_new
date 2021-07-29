@@ -3,6 +3,11 @@ import app from './express'
 import mongoose from 'mongoose'
 import bidding from './controllers/bidding.controller'
 
+// const config = require('./../config/config')
+// const app = require('./express')
+// const mongoose = require('mongoose')
+// const bidding = require( './controllers/bidding.controller')
+
 // Connection URL
 mongoose.Promise = global.Promise
 mongoose.connect(config.mongoUri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: true })
@@ -10,7 +15,7 @@ mongoose.connection.on('error', () => {
   throw new Error(`unable to connect to database: ${config.mongoUri}`)
 })
 
-const server = app.listen(config.port, (err) => {
+ const server = app.listen(config.port, (err) => {
   if (err) {
     console.log(err)
   }
@@ -18,3 +23,4 @@ const server = app.listen(config.port, (err) => {
 })
 
 bidding(server)
+// export default server

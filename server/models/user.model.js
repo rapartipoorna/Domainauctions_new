@@ -1,5 +1,7 @@
 import mongoose from 'mongoose'
+// const mongoose = require('mongoose')
 import crypto from 'crypto'
+// const crypto = require('crypto')
 const UserSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -72,3 +74,4 @@ UserSchema.methods = {
 }
 
 export default mongoose.model('User', UserSchema)
+// module.exports = mongoose.model('User', UserSchema)

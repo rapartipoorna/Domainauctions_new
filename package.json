@@ -1,4 +1,5 @@
 {
+  "type": "module" ,
   "name": "mern-marketplace",
   "version": "2.0.0",
   "description": "A MERN stack based online marketplace application",
@@ -16,11 +17,9 @@
     "url": "https://github.com/shamahoque/mern-marketplace.git"
   },
   "homepage": "https://github.com/shamahoque/mern-marketplace",
-  "main": "./dist/server.generated.js",
   "scripts": {
     "development": "nodemon",
-    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
-    "start": "NODE_ENV=production node ./dist/server.generated.js"
+    "start" : "node --experimental-specifier-resolution=node  D:\\AuctionService\\server\\server.js"
   },
   "engines": {
     "node": "13.12.0",
