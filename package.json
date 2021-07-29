@@ -1,6 +1,7 @@
 {
   "type": "module",
   "name": "mern-marketplace",
+  "main" : "server.js",
   "version": "2.0.0",
   "description": "A MERN stack based online marketplace application",
   "author": "Shama Hoque",
