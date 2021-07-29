@@ -1,7 +1,6 @@
 {
   "type": "module",
   "name": "mern-marketplace",
-  "main" : "server.js",
   "version": "2.0.0",
   "description": "A MERN stack based online marketplace application",
   "author": "Shama Hoque",
@@ -14,7 +13,6 @@
     "mern"
   ],
   "scripts": {
-    "development": "nodemon",
     "start": "pm2-runtime start ecosystem.config.cjs"
   },
   "engines": {
