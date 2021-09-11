@@ -14,12 +14,12 @@ import orderRoutes from './routes/order.routes'
 import auctionRoutes from './routes/auction.routes'
 
 // modules for server side rendering
-import React from 'react'
-import ReactDOMServer from 'react-dom/server'
+// import React from 'react'
+// import ReactDOMServer from 'react-dom/server'
 
-import { StaticRouter } from 'react-router-dom'
+// import { StaticRouter } from 'react-router-dom'
 
-import { ServerStyleSheets, ThemeProvider } from '@material-ui/styles'
+// import { ServerStyleSheets, ThemeProvider } from '@material-ui/styles'
 
 //end
 
