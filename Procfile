@@ -1,1 +1,1 @@
-web: npm ./server/server.js
+web: npm run ./server/server.js
